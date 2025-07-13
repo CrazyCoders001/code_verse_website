@@ -1,0 +1,16 @@
+# Images Directory
+
+Place your background images here.
+
+## Recommended Background Images:
+- hero-bg.jpg (1920x1080 or larger)
+- Should complement orange, gray, white color theme
+- Tech/coding related aesthetic preferred
+
+## Usage:
+To use a local image instead of the Unsplash image, replace the URL in styles/main.css:
+```css
+background: 
+    linear-gradient(135deg, rgba(255, 107, 53, 0.1) 0%, rgba(44, 44, 44, 0.8) 100%),
+    url('images/your-background-image.jpg');
+``` 
