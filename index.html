@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeVerse Academy - Coding Courses for College Students</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="logo-link">
+                    <img src="images/logo.jpeg" alt="CodeVerse Academy Logo" class="logo-image">
+                    <h2><span class="brand-code">Code</span><span class="brand-verse">Verse</span> <span class="brand-academy">Academy</span></h2>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#courses" class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#past-courses" class="nav-link">Past Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#feedback" class="nav-link">Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#auth" class="nav-link auth-btn">Sign In</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Master Coding. Get Placement-Ready. Build Your Future.</h1>
+                <p class="hero-subtitle"> 
+                    Not sure where to start your coding journey? That’s exactly why we’re here.
+                    At CodeVerse Academy, we guide you from zero to job-ready—step by step.
+                    Join us and turn your passion for coding into a real career.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">Explore Courses</a>
+                    <a href="#auth" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-animation">
+                    <div class="code-editor-header">
+                        <div class="editor-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="editor-title">main.cpp</div>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line" id="line1">
+                            <span class="comment">// 🚀 Let's start coding! Welcome to CodeVerse Academy</span>
+                        </div>
+                        <div class="code-line" id="line2">
+                            <span class="preprocessor">#include&lt;iostream.h&gt;</span>
+                        </div>
+                        <div class="code-line" id="line3">
+                            <span class="keyword">using</span> <span class="keyword">namespace</span> <span class="identifier">std</span><span class="punctuation">;</span>
+                        </div>
+                        <div class="code-line" id="line4">
+                            <span class="comment">// 💻 Main function - where magic happens! ✨</span>
+                        </div>
+                        <div class="code-line" id="line5">
+                            <span class="keyword">int</span> <span class="function">main</span><span class="punctuation">(){</span>
+                        </div>
+                        <div class="code-line" id="line6">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">// 👋 Greeting all future developers!</span>
+                        </div>
+                        <div class="code-line" id="line7">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">print</span><span class="punctuation">(</span><span class="string">"Hello Coders"</span><span class="punctuation">);</span>
+                        </div>
+                        <div class="code-line" id="line8">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="number">0</span><span class="punctuation">;</span> <span class="comment">// 🎉 Success!</span>
+                        </div>
+                        <div class="code-line" id="line9">
+                            <span class="punctuation">}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">Our Course Offerings</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Learn HTML, CSS, JavaScript, and modern frameworks like React</p>
+                    <div class="course-details">
+                        <span class="duration">12 weeks</span>
+                        <span class="level">Beginner to Advanced</span>
+                    </div>
+                    <button class="btn btn-primary">Enroll Now</button>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">🐍</div>
+                    <h3>Python Programming</h3>
+                    <p>Master Python from basics to advanced topics including data structures</p>
+                    <div class="course-details">
+                        <span class="duration">10 weeks</span>
+                        <span class="level">Beginner</span>
+                    </div>
+                    <button class="btn btn-primary">Enroll Now</button>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">☕</div>
+                    <h3>Java Fundamentals</h3>
+                    <p>Object-oriented programming with Java for robust applications</p>
+                    <div class="course-details">
+                        <span class="duration">8 weeks</span>
+                        <span class="level">Intermediate</span>
+                    </div>
+                    <button class="btn btn-primary">Enroll Now</button>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">🗄️</div>
+                    <h3>Database Design</h3>
+                    <p>Learn SQL, database design, and data management principles</p>
+                    <div class="course-details">
+                        <span class="duration">6 weeks</span>
+                        <span class="level">Intermediate</span>
+                    </div>
+                    <button class="btn btn-primary">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Courses Section -->
+    <section id="past-courses" class="past-courses">
+        <div class="container">
+            <h2 class="section-title">Past Courses & Success Stories</h2>
+            <div class="past-courses-grid">
+                <div class="past-course-card">
+                    <h3>Full Stack Web Development - Batch 2024A</h3>
+                    <p>35 students completed | 92% placement rate</p>
+                    <div class="course-stats">
+                        <span class="stat">Duration: 16 weeks</span>
+                        <span class="stat">Projects: 5 major projects</span>
+                    </div>
+                    <div class="student-outcomes">
+                        <h4>Student Outcomes:</h4>
+                        <ul>
+                            <li>Sarah M. - Software Engineer at Google</li>
+                            <li>Mike J. - Frontend Developer at Facebook</li>
+                            <li>Lisa K. - Full Stack Developer at Startup</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="past-course-card">
+                    <h3>Python Data Science - Batch 2023B</h3>
+                    <p>28 students completed | 88% placement rate</p>
+                    <div class="course-stats">
+                        <span class="stat">Duration: 14 weeks</span>
+                        <span class="stat">Projects: 4 major projects</span>
+                    </div>
+                    <div class="student-outcomes">
+                        <h4>Student Outcomes:</h4>
+                        <ul>
+                            <li>John D. - Data Analyst at Netflix</li>
+                            <li>Emma R. - ML Engineer at Tesla</li>
+                            <li>Alex T. - Data Scientist at Amazon</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback" class="feedback">
+        <div class="container">
+            <h2 class="section-title">Student Feedback</h2>
+            <div class="feedback-container">
+                <div class="feedback-display">
+                    <div class="feedback-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"The web development course was amazing! The instructor explained concepts clearly and the hands-on projects were incredibly helpful."</p>
+                        <div class="student-info">
+                            <strong>- Sarah Johnson</strong>
+                            <span>Web Development Course</span>
+                        </div>
+                    </div>
+                    <div class="feedback-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"I went from zero coding knowledge to building my own applications. The support from instructors was exceptional."</p>
+                        <div class="student-info">
+                            <strong>- Mike Chen</strong>
+                            <span>Python Programming Course</span>
+                        </div>
+                    </div>
+                    <div class="feedback-card">
+                        <div class="stars">★★★★☆</div>
+                        <p>"Great course structure and practical approach. The career guidance was also very valuable."</p>
+                        <div class="student-info">
+                            <strong>- Lisa Rodriguez</strong>
+                            <span>Java Fundamentals Course</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback-form">
+                    <h3>Share Your Experience</h3>
+                    <form id="feedbackForm">
+                        <div class="form-group">
+                            <label for="studentName">Your Name</label>
+                            <input type="text" id="studentName" name="studentName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="courseName">Course Name</label>
+                            <select id="courseName" name="courseName" required>
+                                <option value="">Select a course</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="python-programming">Python Programming</option>
+                                <option value="java-fundamentals">Java Fundamentals</option>
+                                <option value="database-design">Database Design</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="rating">Rating</label>
+                            <div class="rating-stars">
+                                <span class="star" data-rating="1">★</span>
+                                <span class="star" data-rating="2">★</span>
+                                <span class="star" data-rating="3">★</span>
+                                <span class="star" data-rating="4">★</span>
+                                <span class="star" data-rating="5">★</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="feedback">Your Feedback</label>
+                            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Feedback</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="brand-name">CodeVerse</span> <span class="brand-academy">Academy</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Empowering the Next Generation of Developers</h3>
+                    <p>At CodeVerse Academy, we believe that every college student deserves access to high-quality coding education. Our mission is to bridge the gap between academic learning and industry requirements.</p>
+                    <p>Founded by experienced software engineers and educators, we've successfully trained over 500+ students who are now working at top tech companies worldwide.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>500+</h4>
+                            <p>Students Trained</p>
+                        </div>
+                        <div class="stat">
+                            <h4>90%</h4>
+                            <p>Job Placement Rate</p>
+                        </div>
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Partner Companies</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="team-placeholder">
+                        <h4>Meet Our Team</h4>
+                        <p>Expert instructors with industry experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <strong>📍 Address:</strong>
+                        <p>123 Tech Street, Silicon Valley, CA 94000</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📞 Phone:</strong>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>✉️ Email:</strong>
+                        <p>info@codeverseacademy.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>🕒 Hours:</strong>
+                        <p>Mon-Fri: 9AM-6PM PST</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName">Your Name</label>
+                            <input type="text" id="contactName" name="contactName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Email Address</label>
+                            <input type="email" id="contactEmail" name="contactEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject">Subject</label>
+                            <input type="text" id="contactSubject" name="contactSubject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Message</label>
+                            <textarea id="contactMessage" name="contactMessage" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Authentication Modal -->
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="auth-container">
+                <div class="auth-toggle">
+                    <button class="auth-tab active" data-tab="signin">Sign In</button>
+                    <button class="auth-tab" data-tab="signup">Sign Up</button>
+                </div>
+                
+                <!-- Sign In Form -->
+                <form id="signinForm" class="auth-form active">
+                    <h3>Welcome Back!</h3>
+                    <div class="form-group">
+                        <label for="signinEmail">Email Address</label>
+                        <input type="email" id="signinEmail" name="signinEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signinPassword">Password</label>
+                        <input type="password" id="signinPassword" name="signinPassword" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign In</button>
+                </form>
+                
+                <!-- Sign Up Form -->
+                <form id="signupForm" class="auth-form">
+                    <h3>Create Your Account</h3>
+                    <div class="form-group">
+                        <label for="signupName">Full Name</label>
+                        <input type="text" id="signupName" name="signupName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupEmail">Email Address</label>
+                        <input type="email" id="signupEmail" name="signupEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupMobile">Mobile Number</label>
+                        <input type="tel" id="signupMobile" name="signupMobile" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupPassword">Password</label>
+                        <input type="password" id="signupPassword" name="signupPassword" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupConfirmPassword">Confirm Password</label>
+                        <input type="password" id="signupConfirmPassword" name="signupConfirmPassword" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><span class="brand-name">CodeVerse</span> <span class="brand-academy">Academy</span></h3>
+                    <p>Empowering college students with industry-ready coding skills</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CodeVerse Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html> 
